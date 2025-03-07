@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    /*background: linear-gradient(180deg, #042f30, #00191A, #004D4F, #002B2B, #00191A, #1a4b4c, #00191A);*/
+    background: url('https://img.freepik.com/free-photo/flat-lay-arrangement-desk-elements-with-copy-space_23-2148513316.jpg?semt=ais_hybrid')no-repeat center center/cover;
+  }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background: transparent; */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.calculator{
+    /* background: linear-gradient(90deg, #031515, #032223, #052a2c, #023131, #032223, #031515); */
+    
+    padding: 30px;
+    border-radius: 10px;
+   /* border: 4px solid #000000;*/
+    box-shadow: 0 0 15px 5px rgba(51, 255, 217, 0.6);
+}
+h1 {
+    color: #7db4aa;
+    text-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 4.8);
+    font-size: 18px;
+    font-family: 'Courier New', serif;
+    text-align: left;
+    margin-bottom: 5px; 
+}
+
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 40px rgba(0, 0, 0, 18.0);
+    background: rgb(40, 60, 67);
+    font-size: 20px;
+    color: #ffff;
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    color: #121313;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    background: #000a0b;
+    color: #c5d2d6; 
+    border-radius: 3px;
+
+}
+form input.equal{
+    width: 145px;
+}
+
+form input.operator{
+    background:#1a1d32;
+    color: #33ffd9;
+}
